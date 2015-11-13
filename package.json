@@ -1,0 +1,30 @@
+{
+  "name": "react-native-material-design-components",
+  "version": "0.1.0",
+  "description": "React Native Material Design Components",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/binggg/react-native-material-design-components.git"
+  },
+  "keywords": [
+    "react-native",
+    "material",
+    "design",
+    "ui",
+    "components"
+  ],
+  "author": "Ben Zhao <benzhao1988@gmail.com> (http://binggg.net/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binggg/react-native-material-design-components/issues"
+  },
+  "homepage": "https://github.com/binggg/react-native-material-design-components#readme",
+  "dependencies": {
+    "react-native": "^0.14.2",
+    "react-native-material-design-styles": "^0.2.4"
+  }
+}
