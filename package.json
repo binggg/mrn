@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/binggg/react-native-material-design-components#readme",
   "dependencies": {
-    "react-native": "^0.14.2",
-    "react-native-material-design-styles": "^0.2.4"
+    "react-native-material-design-styles": "^0.2.4",
+    "react-native-vector-icons": "^0.8.5"
   }
 }
