@@ -1,3 +1,3 @@
-# React Native Material Design Components
+## A Material Design style React Native component library.
 
-React Native
+![](http://mrn.js.org/badge.svg)
