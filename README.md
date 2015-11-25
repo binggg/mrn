@@ -5,3 +5,9 @@
 [![doc](http://mrn.js.org/badge.svg)](http://mrn.js.org)
 
 ### [Getting Started](http://mrn.js.org/manual/installation.html#getting-started)
+
+**Note**
+
+For now only support Android 5.0+ (Because ripple feedback only support API21+).
+
+But we will support other version of Android in the recent future.
