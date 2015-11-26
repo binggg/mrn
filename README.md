@@ -9,9 +9,7 @@
 
 **Note**
 
-For now only support Android 5.0+ (Because ripple feedback only support API21+).
-
-But we will support other version of Android in the recent future.
+MRN support Android 4.1.1+ (API level 16+).
 
 ### Screenshots
 
