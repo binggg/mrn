@@ -15,7 +15,8 @@
     "material",
     "design",
     "ui",
-    "components"
+    "components",
+    "react-component"
   ],
   "author": "Ben Zhao <benzhao1988@gmail.com> (http://binggg.net/)",
   "license": "MIT",
