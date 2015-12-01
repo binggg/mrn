@@ -7,7 +7,8 @@ import React, {
     Text,
     DrawerLayoutAndroid,
     ToolbarAndroid,
-    ScrollView
+    ScrollView,
+    BackAndroid
 } from 'react-native';
 import { connect } from 'react-redux';
 import configureStore from '../../configureStore';
@@ -35,6 +36,7 @@ import ChangeTheme from './ChangeTheme';
 import AvatarExample from '../../components/AvatarExample';
 import MenuExample from '../../components/MenuExample';
 import ExpensiveScene from '../../components/ExpensiveScene';
+
 
 const store = configureStore();
 const routers = [
@@ -80,7 +82,21 @@ const routers = [
         name: 'Menu'
     }
 ];
+
+
+
 export default class Main extends Component {
+    constructor (props) {
+        super(props);
+        
+        BackAndroid.addEventListener('hardwareBackPress', function(){
+            if (this.navigatorRef && this.navigatorRef.getCurrentRoutes().length > 1) {
+                this.navigatorRef.pop();
+                return true;
+            }
+            return false;
+        });            
+    };
     render = () => {
         let {
             main,
@@ -104,6 +120,7 @@ export default class Main extends Component {
                         return a.name > b.name ? 1 : -1
                     }).map(router => (
                         <List
+                            key={router.name}
                             primaryColor={main && router.name === main.currRouter ? COLOR[`${main.primary}500`].color: 'rgba(0,0,0,.87)'}
                             onPress={()=>{
                                 this.drawerRef.closeDrawer();
