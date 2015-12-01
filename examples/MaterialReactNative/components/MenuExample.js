@@ -7,9 +7,9 @@ import React, {
 import {
     Subheader,
     Avatar,
-    COLOR
+    COLOR,
+    Menu
 } from 'mrn';
-import Menu from './Menu';
 
 export default class MenuExample extends Component {
     constructor(props) {

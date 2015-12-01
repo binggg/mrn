@@ -7,8 +7,6 @@
   },
   "dependencies": {
     "react": "^0.14.3",
-    "react-native": "^0.13.2",
-    "react-native-vector-icons": "^0.8.5",
     "react-redux": "^4.0.0",
     "redux": "^3.0.4",
     "redux-logger": "^2.0.4",
