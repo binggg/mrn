@@ -2,7 +2,7 @@
   "name": "mrn",
   "version": "0.1.7",
   "description": "React Native Material Design Components",
-  "main": "lib/index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -26,5 +26,9 @@
   "homepage": "https://github.com/binggg/react-native-material-design-components#readme",
   "dependencies": {
     "react-native-material-design-styles": "^0.2.5"
+  },
+  "devDependencies": {
+    "react-native": "^0.13.2",
+    "react-native-vector-icons": "^0.8.5"
   }
 }
