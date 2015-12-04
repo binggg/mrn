@@ -1,4 +1,3 @@
-import 'react-native-vector-icons';
 import React, {
     Component,
     AppRegistry,
