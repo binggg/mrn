@@ -5,6 +5,13 @@
 [![doc](http://mrn.js.org/badge.svg)](http://mrn.js.org)
 [![GitHub stars](https://img.shields.io/github/stars/binggg/mrn.svg?style=social&label=Star)](https://github.com/binggg/mrn)
 
+## Tips
+
+This repository is **no longer maintained** because there is no time to maintain.
+
+Recommend another one: [React Native Material Design](https://github.com/react-native-material-design/react-native-material-design), which is heavily developed on top of the [mrn](https://github.com/binggg/mrn) project. 
+
+
 ## [Getting Started](http://mrn.js.org/manual/installation.html#getting-started)
 
 [http://mrn.js.org/manual/installation.html#getting-started](http://mrn.js.org/manual/installation.html#getting-started)
